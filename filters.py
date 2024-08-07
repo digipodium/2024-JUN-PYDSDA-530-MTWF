@@ -24,7 +24,7 @@ while True:
     f = cv2.putText(f, "RGB", (50, h//2+100), 
                     cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255),5)
     f = cv2.putText(f, "HSV", (w//2 + 50, h//2 + 100), 
-                    cv2.FONT_HERSHEY_SIMPLEX, 2, (255,0,255),5)
+                    cv2.FONT_HERSHEY_SIMPLEX, 2, (0,0,255),5)
     
     cv2.imshow('frame', f)
 
